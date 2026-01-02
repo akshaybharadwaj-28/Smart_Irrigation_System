@@ -18,30 +18,30 @@ This project aims to develop a Smart Irrigation System that uses a soil moisture
 * Jumper wires and Breadboard
 ## Hardware Implementation
 The hardware implementation focuses on establishing a seamless and efficient interconnection between all modules. Each component is wired to ensure reliability, safety, and easy operation under real-world conditions.
-###  Connecting the Soil Moisture Sensor to the Arduino
+* ###  Connecting the Soil Moisture Sensor to the Arduino
 The soil moisture sensor includes three pins: VCC, GND, and A0 (analog output). 
 * VCC is connected to the 5V pin of the Arduino UNO.
 * GND is connected to the Arduino’s ground (GND).
 * A0 is connected to analog pin A0 on the Arduino. 
 This allows the Arduino to read real-time moisture levels from the soil.
-### Integration of the Relay Module and Water Pump
+* ### Integration of the Relay Module and Water Pump
 A 5V single-channel relay module is used to control the water pump. 
 * VCC and GND of the relay are connected to the Arduino’s 5V and GND pins respectively.
 * The IN (signal) pin is connected to digital pin 7 on the Arduino.
 * The relay’s NO (Normally Open) and COM (Common) ports are wired to the water pump’s positive terminal and the external power supply, respectively.
 * The negative terminal of the pump is connected directly to the power supply’s ground. 
 This setup enables the Arduino to turn the pump ON or OFF depending on soil moisture conditions.
-### Power Supply Setup
+* ### Power Supply Setup
 * The Arduino UNO is powered using either a USB cable (for programming and debugging) or a 9V battery for standalone operation.
 * The water pump, which requires more current than the Arduino can provide, is powered by a dedicated 9V–12V external power supply to prevent overloading the microcontroller.
 * All GND connections are tied together to ensure a common reference and avoid erratic behavior.
-### Connecting the I2C LCD Display
+* ### Connecting the I2C LCD Display
 A 16x2 I2C LCD display is used to present real-time information. 
 * The SDA pin is connected to A4 on the Arduino UNO.
 * The SCL pin is connected to A5.
 * VCC and GND are connected to the Arduino’s 5V and GND.
 This reduces wiring complexity by using just two signal lines for display control.
-### Integration of HC-05 Bluetooth Module
+* ### Integration of HC-05 Bluetooth Module
 The HC-05 Bluetooth module allows wireless serial communication for switching between Manual and Automatic modes. 
 * VCC is connected to 5V on the Arduino.
 * GND goes to Arduino GND.
