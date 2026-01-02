@@ -51,11 +51,11 @@ This setup enables serial communication between a smartphone or PC and the Ardui
 ## Schematic
 ![schematic](https://github.com/user-attachments/assets/0e79942d-4f77-4ed0-9ca3-1818b5ae1c05)
 ## Software Implementation
-### Initialization of Sensors, Relay, LCD, and Bluetooth
-### Reading Data from the Soil Moisture Sensor
-### Mode Switching via Bluetooth (Manual / Automatic)
-### Threshold-Based Decision-Making
-### Feedback Mechanism and Delays
+* ### Initialization of Sensors, Relay, LCD, and Bluetooth
+* ### Reading Data from the Soil Moisture Sensor
+* ### Mode Switching via Bluetooth (Manual / Automatic)
+* ### Threshold-Based Decision-Making
+* ### Feedback Mechanism and Delays
 ## Flowchart
 ![flowchart](https://github.com/user-attachments/assets/4fefe9b9-00c9-444c-b771-fc5a17f26171)
 ## Results
